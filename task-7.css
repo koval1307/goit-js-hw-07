@@ -1,0 +1,19 @@
+.gallery__item {
+  padding: 15px;
+  align-items: center;
+}
+.gallery__img {
+    width: 1000px;
+    align-items: center;
+}
+
+
+#gallery {
+  
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-bottom: 50px;
+  margin-right: 50px;
+ 
+}
