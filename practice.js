@@ -1,4 +1,20 @@
 
+// const selectedById = document.querySelector('#categories');
+
+// console.log(selectedById);
+
+// const title = document.querySelector('.title');
+// title.textContent = "dkdkdkd";
+// console.log (title)
+
+// const title = document.querySelector(".title");
+// console.log(title.classList);
+// title.classList.add('newClass-js');
+// title.style.backgroundColor = "red";
+// console.log (title.classList)
+// console.log(title.classList.contains ('green'))
+
+
 // decrementRef.addEventListener('click', decrement);
 // incrementRef.addEventListener('click', increment);
 // let valueRef = document.querySelector('#value');
