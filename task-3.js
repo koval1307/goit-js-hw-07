@@ -19,16 +19,16 @@ const images = [
 
 // const galleryRef = document.querySelectorAll("#gallery");
 
-const galleryCollection = ((img) => {
-    const itemRef = document.createElement('li');
-    const imgRef = document.createElement('img');
-    itemRef.classList.add("gallery__item");
-    imgRef.classList.add("gallery__img");
-    itemRef.appendChild(imgRef);
-    imgRef.setAttribute("src", img.url);
-    imgRef.setAttribute("alt", img.alt);
-    return itemRef;
-}
-);
-const createCollection = images.map((img) => galleryCollection(img));
-document.querySelector('#gallery').append(...createCollection);
+// const galleryCollection = ((img) => {
+//     const itemRef = document.createElement('li');
+//     const imgRef = document.createElement('img');
+//     itemRef.classList.add("gallery__item");
+//     imgRef.classList.add("gallery__img");
+//     itemRef.appendChild(imgRef);
+//     imgRef.setAttribute("src", img.url);
+//     imgRef.setAttribute("alt", img.alt);
+//     return itemRef;
+// }
+// );
+// const createCollection = images.map((img) => galleryCollection(img));
+// document.querySelector('#gallery').append(...createCollection);
