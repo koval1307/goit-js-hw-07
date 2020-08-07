@@ -2,14 +2,22 @@
 // let valueRef = document.querySelector('#value');
 // let decrementRef = document.querySelector('button[data-action="decrement"]');
 // let incrementRef = document.querySelector('button[data-action="increment"]');
-
-// let increment = function (){
-//     counterValue +=1;
-// valueRef.textContent = counterValue
-// };
-// let decrement = function () {
-//     counterValue -= 1;
+// function updateNumber() {
 //     valueRef.textContent = counterValue
+// }
+// function incrementNumber() {
+//     counterValue += 1;
+// };
+// function decrementNumber() {
+//     counterValue -= 1;
+// }
+// function increment (){
+//     incrementNumber();
+//     updateNumber();
+// };
+// function decrement() {
+//     decrementNumber();
+//     updateNumber();
 // };
 
 // decrementRef.addEventListener('click', decrement);

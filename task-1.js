@@ -1,12 +1,8 @@
 
 ////-------1 task -----------///////////////
-// const categories = document.querySelector('#categories');
-
+// const categories = document.querySelector('#categories.item');
 // console.log(categories.children);
-
-
-// const listOfCategories = document.querySelectorAll('#categories .item');
-// listOfCategories.forEach((elem) => console.log(elem.querySelector('h2'), elem.querySelectorAll("li").length));
+//Categories.forEach((elem) => console.log(elem.querySelector('h2'), elem.querySelectorAll("li").length));
  
 
 
